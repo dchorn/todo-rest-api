@@ -3,8 +3,8 @@ class Database
 {
     private $host = "localhost";
     private $db_name = "todo_api";
-    private $username = "root";
-    private $password = "";
+    private $username = "dev";
+    private $password = "dev123";
     public $conn;
 
     public function getConnection()
